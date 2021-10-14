@@ -3,11 +3,11 @@ description: 'Hello World!'
 inputs:
   who-to-greet:
     description: 'Name of person who to send greetings'
-    default: 'Kulbhushan Mayer'
+    default: 'Ningaraj Siddegowda'
     required: true
 outputs:
   time:
     description: 'When I have greeted'
 runs:
-  using: 'node'
+  using: 'node12'
   main: 'index.js'
